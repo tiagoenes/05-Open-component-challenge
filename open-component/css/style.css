@@ -1,0 +1,34 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Varela+Round&display=swap');
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+@import url("./components/product.css");
+@import url("./components/button.css");
+@import url("./components/video.css");
+@import url("./components/bottom.css");
+
+
+body {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+
+
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 700px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 0 4px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+

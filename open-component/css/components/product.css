@@ -1,0 +1,38 @@
+.product{
+  background-color: white;
+  display: flex;
+  padding: 10px;
+}
+.product-image{
+  width: 300px;
+}
+.content{
+  text-align: center;
+}
+.content-title{
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Varela Round', sans-serif;
+}
+.content-text{
+  font-size: 18px;
+  font-family: 'Abel', sans-serif;
+}
+.content-text a{
+  color:#268AD2;
+}
+.content .stars,.content p{
+  text-align: left;
+}
+.stars i{
+  color:#534D71;
+}
+.product-display{
+  position: relative;
+}
+.product-display i{
+  color:#534D71;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}

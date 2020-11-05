@@ -1,0 +1,16 @@
+.image-video{
+  display: flex;
+  background-image: url(../../images/picture2.jpg);
+  background-size: cover;
+  padding: 120px 0px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.image-video i{
+  font-size: 80px;
+  color: white;
+  opacity: 0.6;
+}
+}
