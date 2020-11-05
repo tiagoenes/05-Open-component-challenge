@@ -1,9 +1,16 @@
 .bottom{
   display: grid;
   padding: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 100%;
   grid-gap: 10px;
 }
 .small-pictures{
   width: 100%;
+}
+
+@media only screen and (min-width: 650px) {
+  .bottom {
+    grid-template-columns: 31.3% 31.3% 31.3%;
+    grid-column-gap: 2%;
+  }
 }

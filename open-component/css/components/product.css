@@ -1,12 +1,15 @@
 .product{
   background-color: white;
-  display: flex;
+  display: grid;
+  grid-template-columns: 100%;
   padding: 10px;
 }
+
 .product-image{
-  width: 300px;
+  width: 100%;
 }
 .content{
+  width: 100%;
   text-align: center;
 }
 .content-title{
@@ -22,12 +25,15 @@
   color:#268AD2;
 }
 .content .stars,.content p{
-  text-align: left;
+
+  text-align: center
 }
 .stars i{
   color:#534D71;
+  padding-right: 2px;
 }
 .product-display{
+  width: 100%;
   position: relative;
 }
 .product-display i{
@@ -35,4 +41,13 @@
   position: absolute;
   top: 10px;
   left: 20px;
+}
+@media only screen and (min-width: 650px) {
+  .product {
+    grid-template-columns: 47.5% 47.5%;
+    grid-column-gap: 5%;
+  }
+  .product .content .stars,.product .content p{
+    text-align: left;
+  }
 }
